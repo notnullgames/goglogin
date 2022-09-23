@@ -2,11 +2,11 @@ This is a simple web dialog to login to Gog, for use with [the API](https://goga
 
 It just returns the initial auth-code, on stdout. You can use this code to get an auth/refresh token in some other programmming language.
 
+The origiunal purpose was to provide a Gog login for a plugin on steamdeck, or any other script that needs Gog APIs.
+
 ## usage
 
 Get the [release](https://github.com/notnullgames/goglogin/releases) for your platform. Run it, and it will open a Gog login dialog. The output on stdout is your initial auth-token. See [example./py](example./py) for an example of using it in another script.
-
-The origiunal purpose was to provide a Gog login for a plugin on steamdeck, or any other script that needs Gog APIs.
 
 ## development
 
