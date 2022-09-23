@@ -4,7 +4,7 @@ It just returns the initial auth-code, on stdout. You can use this code to get a
 
 ## usage
 
-Get the [release](https://github.com/notnullgames/goglogin/releases) for your platform. RUn it, and it will open a Gog login dialog. The output on stdout is your initial auth-token. See [example./py](example./py) for an example of using it in another script.
+Get the [release](https://github.com/notnullgames/goglogin/releases) for your platform. Run it, and it will open a Gog login dialog. The output on stdout is your initial auth-token. See [example./py](example./py) for an example of using it in another script.
 
 
 ## development
