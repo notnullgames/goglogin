@@ -6,6 +6,7 @@ It just returns the initial auth-code, on stdout. You can use this code to get a
 
 Get the [release](https://github.com/notnullgames/goglogin/releases) for your platform. Run it, and it will open a Gog login dialog. The output on stdout is your initial auth-token. See [example./py](example./py) for an example of using it in another script.
 
+The origiunal purpose was to provide a Gog login for a plugin on steamdeck, or any other script that needs Gog APIs.
 
 ## development
 
@@ -16,7 +17,7 @@ cargo build --release # build for production in target/release/goglogin
 
 ### dependencies
 
-You will need a few dependencies, dpending on your OS. I only tested with Mac & Linux.
+You will need a few dependencies, depending on your OS. I only tested with Mac & Linux.
 
 #### linux
 
