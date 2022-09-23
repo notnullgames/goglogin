@@ -20,7 +20,7 @@ You will need a few dependencies, dpending on your OS. I only tested with Mac & 
 
 #### linux
 
-On popos 22.04, I had problems with GTK dev-dependencies not being installable. I used docker to work around it.
+On Pop!OS 22.04, I had problems with GTK dev-dependencies not being installable. I used docker to work around it.
 
 ```
 docker run --rm -it --workdir=/app -v ${PWD}:/app rust
