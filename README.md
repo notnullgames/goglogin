@@ -6,7 +6,7 @@ The origiunal purpose was to provide a Gog login for a plugin on steamdeck, or a
 
 ## usage
 
-Get the [release](https://github.com/notnullgames/goglogin/releases) for your platform. Run it, and it will open a Gog login dialog. The output on stdout is your initial auth-token. See [example./py](example./py) for an example of using it in another script.
+Get the [release](https://github.com/notnullgames/goglogin/releases) for your platform. Run it, and it will open a Gog login dialog. The output on stdout is your initial auth-token. See [example.py](example.py) for an example of using it in another script.
 
 ## development
 
