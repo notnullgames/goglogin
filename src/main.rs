@@ -17,7 +17,7 @@ fn main() -> wry::Result<()> {
     .with_title("Gog Login")
     .build(&event_loop)?;
   
-  let _webview = WebViewBuilder::new(window)?
+  let webview = WebViewBuilder::new(window)?
     .with_url("https://auth.gog.com/auth?client_id=46899977096215655&redirect_uri=https%3A%2F%2Fembed.gog.com%2Fon_login_success%3Forigin%3Dclient&response_type=code&layout=client2")?
     .with_navigation_handler(move |uri: String| {
         let u = Url::parse(&uri).unwrap();
